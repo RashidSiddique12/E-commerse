@@ -1,0 +1,23 @@
+
+#badge{
+    float: right;
+    margin: 15px;
+    margin-top: 7px;
+    margin-right: 25px;
+    
+}
+#account{
+    float: right;
+    /* margin: 15px; */
+}
+.search{
+    /* position:absolute; */
+    display: inline;
+    margin-left: 200px;
+    /* width: 400px; */
+    
+}
+#outlined-basic{
+    width: 400px;
+    
+}
