@@ -20,7 +20,7 @@ function Navbar1({getSearchValue}) {
   //   setAge(event.target.value);
   // };
 
-  const cartProducts = useSelector((store) => store.cart);
+  const cartProducts = useSelector((store) => store.cart.value);
     let nCartItems = 0;
     cartProducts.map((item) => {
         nCartItems += item.qty;

@@ -21,7 +21,7 @@ function Product({ item }) {
                 </div>
             </Link>
             <button 
-                style={{ marginTop: "20px", marginBottom: "20px", padding: "8px" }}
+                style={{ marginTop: "20px", marginBottom: "20px", padding: "8px", backgroundColor:"#D23F57",border:"none", color:"white", fontWeight:"bold", padding:"6px 20px", borderRadius:"5px" }}
                 onClick={handleAddToCart}
             >
                 Add to Cart

@@ -14,6 +14,7 @@ import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import Button from '@mui/material/Button';
 import './Account.css'
+import { Link } from 'react-router-dom';
 // import HorizontalRuleSharpIcon from '@mui/icons-material/HorizontalRuleSharp';
 
 function AccountDetails() {
@@ -47,10 +48,16 @@ function AccountDetails() {
         alignItems:'center'
     }
 
+const handleLogin ={
+    
+}
+    
+
     return (
 
 
-        <div>
+        <div >
+            <Link to="/"><p style={{backgroundColor:"#D23F57", width:"147px", padding:"3px 8px", borderRadius:"5px", color:"white", fontWeight:"bold"}}>Go to home page</p></Link>
             <center>
                 <div className='login-div'>
                     <img src={loginlogo} alt={"login-logo"} />
@@ -59,7 +66,7 @@ function AccountDetails() {
 
             </center>
 
-            <div className='container'>
+            <div className='container' style={{ width:"400px"}}>
                 <div className='container-div'>
                     <Box
                         component="form"
@@ -105,10 +112,10 @@ function AccountDetails() {
                         </FormControl>
 
                         <div >
-                            <Button style={btn} variant="contained">Login</Button>
+                            <Link to="/"><Button style={btn} variant="contained" onClick={handleLogin}>Login</Button></Link>
                         </div>
                         
-                        <center><p style={font}>or</p></center>
+                        <p style={{marginLeft:"150px", marginTop:"30px", fontWeight:"bold"}} id="or">or</p>
                         
                         <div >
                             <Button variant="contained" style={btn}>

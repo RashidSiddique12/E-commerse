@@ -6,7 +6,7 @@ function UserPage() {
     <div>
         <Navbar1/>
         <p>UserPage</p>
-      
+          <h4>Right now nothing in this Page but I will Update this Page 🙏🏻</h4>
     </div>
   )
 }
